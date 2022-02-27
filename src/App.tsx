@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Modal from 'react-modal';
 
 import { TransactionsProvider } from './hooks/useTransactions';
@@ -8,7 +8,6 @@ import { Header } from './components/Header';
 import { NewTransactionModal } from './components/NewTransactionModal';
 
 import { GlobalStyle } from './styles/global';
-import { api } from './services/api';
 
 Modal.setAppElement('#root');
 
